@@ -9,7 +9,7 @@ import path from 'path';
 export default defineConfig({
   plugins: [react(), eslintPlugin()],
   build: {
-    outDir: 'app'
+    outDir: 'docs'
   },
   resolve: {
     alias: {
