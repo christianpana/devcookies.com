@@ -8,6 +8,9 @@ import path from 'path';
  */
 export default defineConfig({
   plugins: [react(), eslintPlugin()],
+  build: {
+    outDir: 'app'
+  },
   resolve: {
     alias: {
       '@': path.resolve('./src'),
