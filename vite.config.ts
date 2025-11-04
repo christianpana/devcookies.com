@@ -14,6 +14,9 @@ export default defineConfig({
     }),
     react(),
   ],
+  css: {
+    postcss: './postcss.config.js',
+  },
   build: {
     outDir: 'docs',
   },
