@@ -1,0 +1,26 @@
+import{a as k,r as n,j as o,L as c}from"./index-DPxWBIkL.js";function y(t){return k({select:e=>e.location})}/**
+ * @license lucide-react v0.552.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const g=t=>t.replace(/([a-z0-9])([A-Z])/g,"$1-$2").toLowerCase(),b=t=>t.replace(/^([A-Z])|[\s-_]+(\w)/g,(e,s,a)=>a?a.toUpperCase():s.toLowerCase()),d=t=>{const e=b(t);return e.charAt(0).toUpperCase()+e.slice(1)},h=(...t)=>t.filter((e,s,a)=>!!e&&e.trim()!==""&&a.indexOf(e)===s).join(" ").trim(),v=t=>{for(const e in t)if(e.startsWith("aria-")||e==="role"||e==="title")return!0};/**
+ * @license lucide-react v0.552.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */var w={xmlns:"http://www.w3.org/2000/svg",width:24,height:24,viewBox:"0 0 24 24",fill:"none",stroke:"currentColor",strokeWidth:2,strokeLinecap:"round",strokeLinejoin:"round"};/**
+ * @license lucide-react v0.552.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const j=n.forwardRef(({color:t="currentColor",size:e=24,strokeWidth:s=2,absoluteStrokeWidth:a,className:i="",children:r,iconNode:p,...l},x)=>n.createElement("svg",{ref:x,...w,width:e,height:e,stroke:t,strokeWidth:a?Number(s)*24/Number(e):s,className:h("lucide",i),...!r&&!v(l)&&{"aria-hidden":"true"},...l},[...p.map(([u,f])=>n.createElement(u,f)),...Array.isArray(r)?r:[r]]));/**
+ * @license lucide-react v0.552.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const C=(t,e)=>{const s=n.forwardRef(({className:a,...i},r)=>n.createElement(j,{ref:r,iconNode:e,className:h(`lucide-${g(d(t))}`,`lucide-${t}`,a),...i}));return s.displayName=d(t),s};/**
+ * @license lucide-react v0.552.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const N=[["path",{d:"M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5",key:"laymnq"}],["path",{d:"M8.5 8.5v.01",key:"ue8clq"}],["path",{d:"M16 15.5v.01",key:"14dtrp"}],["path",{d:"M12 12v.01",key:"u5ubse"}],["path",{d:"M11 17v.01",key:"1hyl5a"}],["path",{d:"M7 14v.01",key:"uct60s"}]],T=C("cookie",N),m={dark:{bg:"bg-[#1b1b1f]",titleText:"text-gray-100",subtitleText:"text-gray-300",footerText:"text-gray-200",cookieText:"text-amber-500",linkText:"text-blue-400"}},$=["Fortune cookies compiled for software engineers.","Your daily dose of developer wisdom.","Breaking fortune cookies, not production code","Daily inspiration for developers.","Code wisdom in bite-sized pieces.","Fortune cookies optimized for developers","Because you needed more debugging advice from a cookie.","Fortune cookies that probably won't fix your merge conflicts.","Cookies with more intelligence than your last code review.","Daily advice that's somehow still more reliable than production.","Cookies that understand your pain better than your project manager.","Because nothing says career guidance like a random cookie.","Daily fortunes that won't suddenly change requirements mid-sprint."],L=t=>{const s=(parseInt(new Date().toISOString().slice(0,10).replace(/-/g,""),10)*9301+49297)%233280/233280;return t[Math.floor(s*t.length)]},B=()=>{const t=m.dark,e=L($);return o.jsxs("div",{className:"space-y-0 p-6",children:[o.jsxs("div",{className:"flex items-center space-x-3",children:[o.jsx(c,{to:"/",children:o.jsx(T,{className:"w-5 h-5 text-white"})}),o.jsx("h1",{className:`display ${t.titleText} text-xl font-sans font-bold`,children:o.jsx(c,{to:"/",children:"DevCookies"})})]}),o.jsx("div",{children:o.jsx("h3",{className:`block ${t.subtitleText} text-md font-sans font-medium`,children:e})})]})},M=()=>{const t=y(),e=m.dark;return o.jsxs("div",{className:"py-6 text-center space-y-6",children:[o.jsx("div",{children:!t.pathname.startsWith("/fortune")&&!t.pathname.startsWith("/license")&&o.jsx("h3",{className:`block ${e.footerText} text-lg font-sans font-medium`,children:"Click the cookie to compile your daily wisdom"})}),o.jsxs("div",{className:"space-y-1.5",children:[o.jsxs("div",{className:"text-xs font-sans space-x-2",children:[o.jsx("a",{href:"https://chromewebstore.google.com/detail/attiv%C3%B8-feature-flag-manag/mekbopeapnlcmdclklappobclffnalof",target:"_blank",rel:"noopener noreferrer",className:`font-sans ${e.linkText} text-xs transition-opacity duration-200 hover:opacity-70`,children:"Attivø"}),o.jsx("span",{className:"text-white",children:"·"}),o.jsx("a",{href:"https://github.com/christianpana/naka-cv-template",target:"_blank",rel:"noopener noreferrer",className:`font-sans ${e.linkText} text-xs transition-opacity duration-200 hover:opacity-70`,children:"Naka CV Template"}),o.jsx("span",{className:"text-white",children:"·"}),o.jsx(c,{to:"/license",className:`font-sans ${e.linkText} text-xs transition-opacity duration-200 hover:opacity-70`,children:"License"})]}),o.jsxs("div",{className:`${e.footerText} text-[10px] font-sans font-medium`,children:["Made with️ ",o.jsx("span",{className:"text-red-400",children:"<3"})," in BCN"]})]})]})};export{M as F,B as H,C as c,m as t};
